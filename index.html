@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matuê Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Matuê</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <img
+          src="assets/img/bg-mano.png"
+          alt="Imagem do cantor de trap Matuê"
+        />
+        <!-- <figcaption>Imagem do cantor de rap Matuê</figcaption> -->
+      </figure>
+
+      <section class="about">
+        <h2>E ai, sou o Matuê!</h2>
+        <p>
+          Matheus Brasileiro Aguiar, Fortaleza, 11 de outubro de 1993, mais
+          conhecido como Matuê, é um rapper, cantor, compositor, guitarrista e
+          empresário brasileiro. Ficou conhecido com o single "Anos Luz",
+          lançado em 2017 e pelo álbum "Máquina do Tempo" lançado em 2020. É
+          considerado um dos símbolos do trap brasileiro.
+        </p>
+        <div class="buttons">
+          <button class="primary">Projetos</button>
+          <button class="secondary">LinkedIn</button>
+        </div>
+      </section>
+      <section class="projects">
+        <h2 class="underline">Projetos</h2>
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>Maquina do Tempo</h3>
+            <p>
+              Máquina do Tempo é o álbum de estreia do rapper brasileiro Matuê,
+              lançado em 10 de setembro de 2020 pela Sony Music e o próprio selo
+              musical de Matuê, a 30PRAUM. O álbum fez história sendo o trabalho
+              com a melhor estreia de todos os tempos no Spotify Brasil,
+              alcançando as primeiras posições da lista de canções mais
+              escutadas na plataforma de streaming no país.
+            </p>
+            <button>Ver Projeto</button>
+          </div>
+          <div class="card-right">
+            <img
+              src="assets/img/mano-spot.png"
+              alt="Imagem do cantor de trap Matuê"
+            />
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card .card-reverse" style="flex-direction: row-reverse">
+          <div class="card-left">
+            <h3>30PRAUM</h3>
+            <p>
+              A 30PRAUM nasce então como selo fonográfico e produtora musical,
+              em 2016, para gerenciar a carreira de Matuê. Hoje, além dele, os
+              cantores WIU, Teto, e a nova adição Brandão também integram o
+              casting da produtora, que tem como objetivo fomentar a cena do rap
+              e trap no Nordeste.
+            </p>
+            <button>Ver Projeto</button>
+          </div>
+          <div class="card-right">
+            <img
+              src=""
+              alt="Imagem do cantor da 30PRAUM"
+            />
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>333</h3>
+            <p>
+              333 (também intitulado como 333 - Salve Todos) é o segundo álbum
+              de estúdio do rapper brasileiro Matuê, lançado em 9 de setembro de
+              2024 pela gravadora 30PRAUM. O álbum conta com participações
+              de Teto, Veigh e Brandão85, a produção foi carregada pelo próprio
+              Matuê, junto com Brandão85 e Samuel Batista
+            </p>
+            <button>Ver Projeto</button>
+          </div>
+          <div class="card-right">
+            <img
+              src="assets/img/racionais.jpeg"
+              alt="Imagem do cantor de trap Matuê"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2 class="underline">Contato</h2>
+
+        <form action="" method="post" class="form-contact">
+          <div class="form-input">
+            <label for="nome">Nome:</label>
+            <input id="nome" placeholder="Ex: Matuê" value="" />
+          </div>
+          <div class="form-input">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex: email@gmail.com" />
+          </div>
+          <div class="form-input">
+            <label for="msg">Mensagem:</label>
+            <textarea
+              id="msg"
+              placeholder="Ex: Fala irmão, tudo bem?"
+            ></textarea>
+          </div>
+          <div class="button">
+            <button type="submit" class="primary">Enviar</button>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <div class="icons">
+          <a href=""
+            ><img
+              alt="Instagram"
+              src="assets/img/inst.png"
+              width="38"
+              height="38"
+          /></a>
+          <a href=""
+            ><img
+              alt="LinkedIn"
+              src="assets/img/link.png"
+              width="38"
+              height="38"
+          /></a>
+          <a href=""
+            ><img alt="Email" src="assets/img/email.png" width="38" height="38"
+          /></a>
+        </div>
+        <p>Matuê 2025</p>
+        <img src="assets/img/footer.png" alt="Retangulo da pagina" />
+      </footer>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
