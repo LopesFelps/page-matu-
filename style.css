@@ -219,7 +219,7 @@
     font-weight: bold;
     margin-bottom: 24px;
     margin-top: 0;
-    color: purple;
+    color: #640453;
   }
 
   .h3_card3 {
@@ -227,11 +227,11 @@
     font-weight: bold;
     margin-bottom: 24px;
     margin-top: 0;
-    color: cadetblue;
+    color: #4F7AA5;
   }
 
   .card-left .button-left {
-    background-color: cadetblue;
+    background-color: #4F7AA5;
     color: white;
     border: 2px solid;
     border-radius: 8px;
@@ -242,7 +242,7 @@
   }
 
   .button_card1 {
-    background-color: purple;
+    background-color: #640453;
     color: white;
     border: 2px solid;
     border-radius: 8px;
